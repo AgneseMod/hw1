@@ -1,0 +1,102 @@
+body{
+    background-color: #070A21;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f8f8f8;
+  }
+  
+  header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+
+  header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #logo{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #links a{
+    margin: 15px;
+    text-decoration: none;
+  }
+
+  #links a:visited { 
+  text-decoration: none; 
+  color: white; 
+ }
+
+  
+  @media (max-width: 500px) {
+    #links {
+      display: none;
+    }
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 500px) {
+    #menu {
+      display: block;
+    }
+  }
+  
+  header h1{
+    z-index: 1;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  @media (max-width: 500px) {
+    header h1 {
+      font-size: 2em;
+      padding: 0 30px;
+    }
+  }
+  
+  .subtitle{
+    z-index: 1;
+    font-size: 18px
+  }
+  
+  @media (max-width: 500px) {
+    .subtitle {
+      padding: 0 30px;
+    }
+  }
+  
+  footer{
+    background-color: #000;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+
+ 

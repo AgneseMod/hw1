@@ -1,0 +1,243 @@
+form {
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #366c9e;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+article {
+	
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+body{
+    background-color: #070A21;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #f8f8f8;
+  }
+
+#album-view {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+	
+}
+
+#album-view div {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+	font-size: 24;
+	
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#album-view ol li:hover{
+	color: #191F45;
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+
+#album-view div img {
+	max-width: 100%;
+}
+
+#album-view button {
+	background-color: #159987;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#album-view button:hover {
+	opacity: 0.8;
+}
+
+#sinossi{
+	background-color:  #191F45;
+	font-size: 24;
+}
+
+#cast {
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: center;
+	background-color:  #191F45;
+	border-radius: 5px;
+	
+}
+
+#cast p {
+	font-weight: bold;
+}
+
+.attore {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+	align-content: center;
+}
+
+.attore img {
+	max-height: 180px;
+}
+
+
+footer {
+	
+	background-color: #000;
+    padding: 50px 0 20px;
+	text-align: center;
+  }
+  
+  #modale {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+  
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+  
+  #modale.hidden {
+	display: none;
+  }
+
+  iframe {
+	height: 340px;
+	width: 640px;
+  }
+
+  header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  header nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  #logo{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  #links a{
+    margin: 15px;
+    text-decoration: none;
+  }
+
+  #links a:visited { 
+  text-decoration: none; 
+  color: white; 
+ }
+
+  
+  @media (max-width: 500px) {
+    #links {
+      display: none;
+    }
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #menu div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 500px) {
+    #menu {
+      display: block;
+    }
+  }
+  
+  .button{
+    background-color: #159987;
+    padding: 5px 15px;
+    border-radius: 50px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  header h1{
+    z-index: 1;
+    font-size: 3em;
+    text-align: center;
+  }
+  
+  @media (max-width: 500px) {
+    header h1 {
+      font-size: 2em;
+      padding: 0 30px;
+    }
+  }
+  
+  
+  
+  
+  .search{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+    }
+    
+    .search label{
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+  
+    .search input:focus{
+      outline: none;
+    }
+    
+    .searchBar{
+    font-size: 16px;
+    width: 50%;
+    height: 50px;
+    padding: 16px 14px 18px;
+    border: 2px solid #070a21;
+    border-radius: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+    margin-bottom: 8px;
+    }
